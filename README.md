@@ -1,18 +1,5 @@
-# math-server
+# Math Server
 
-A simple client-server math application written in C for Unix/Linux systems.
+A Unix/Linux client-server application written in **C** for performing computational tasks over a network.
 
-# Description
-This project demonstrates communication between a client and a server. The client sends mathematical requests to the server, and the server processes the request and returns the result.
-
-# Files
-•	server.c – Handles client requests and performs calculations.
-•	client.c – Connects to the server and sends requests.
-
-# Language
-C
-
-# Platform
-Unix/Linux
-
-
+The server accepts requests from clients and supports **matrix inversion** and **K-means clustering** computations. The project uses socket programming, process-based server strategies, and POSIX threads to demonstrate concurrent and network-based computation.
